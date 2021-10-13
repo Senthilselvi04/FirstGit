@@ -1,6 +1,8 @@
 Feature:I am going to validate calculator app
 
 @calculatortesting
+@calculatortesting
+@calculatortesting
 Scenario Outline: Addition in calculator app first
 
 Given Navigate to calculator website
