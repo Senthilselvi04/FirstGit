@@ -21,6 +21,8 @@ describe('Chain locators demo', () => {
         yield calc.secondInput.sendKeys("71");
         yield calc.secondInput.sendKeys("72");
 
+        yield calc.secondInput.sendKeys("77");
+
         yield calc.go.click();
         calc.getResult.getText().then(function (text) {
             console.log(text);
