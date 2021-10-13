@@ -18,6 +18,9 @@ describe('Chain locators demo', () => {
         protractor_1.browser.get('http://juliemr.github.io/protractor-demo/');
         yield calc.firstInput.sendKeys("3");
         yield calc.secondInput.sendKeys("7");
+        yield calc.secondInput.sendKeys("71");
+        yield calc.secondInput.sendKeys("72");
+
         yield calc.go.click();
         calc.getResult.getText().then(function (text) {
             console.log(text);
